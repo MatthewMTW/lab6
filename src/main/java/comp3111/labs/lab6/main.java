@@ -1,13 +1,14 @@
 package comp3111.labs.lab6;
-
+//sdsdsdsdsd
 /*
  * note the bad coding style (deliberately written for debugging exercise) 
  */
 public class main {
 	public static void main(String[] args) {
 		Animal animals[] = new Animal[10];
-		for (Animal a : animals)
-			a = new Animal();	
+		for(int i = 0; i <10 ; i++) {
+			animals[i] = new Animal();
+		}
 		for (int iii = 0; iii < 10; iii++) {
 			int ii = 0;
 			for (; ii < 100 && animals[iii].isAlive() ; ii++) {

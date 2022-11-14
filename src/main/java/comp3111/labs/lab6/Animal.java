@@ -9,6 +9,8 @@ public class Animal {
 		weight = 5;
 		alive = true;
 	}
+	
+	//gtrtr
 	public double getWeight() { return weight;}
 	public boolean isAlive() { return alive; }
 	public void eat() { 
