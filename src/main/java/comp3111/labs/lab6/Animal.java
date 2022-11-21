@@ -8,6 +8,8 @@ public class Animal {
 	public Animal() {
 		weight = 5;
 		alive = true;
+		//mlkmlkm
+		//nkjnjknjnknkn
 	}
 	
 	//gtrtr
